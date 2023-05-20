@@ -25,19 +25,19 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <main className="footerPage">
-        <aside>
+      <main className="mainPage">
+        <section>
           <h2>Vídeo</h2>
           <Video />
-        </aside>
-        <div className="about">
+        </section>
+        <section className="about">
           <h2>Sobre Rick and Morty</h2>
           <About />
-        </div>
-        <div className="section">
+        </section>
+        <section className="news">
           <h2>Recibir noticias sobre la serie</h2>
           <Email />
-        </div>
+        </section>
       </main>
     </>
   );
